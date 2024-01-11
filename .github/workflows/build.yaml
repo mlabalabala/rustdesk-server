@@ -181,6 +181,8 @@ jobs:
           - { os: "linux", name: "i386" }
           - { os: "linux", name: "amd64fb" }
           - { os: "windows", name: "x86_64" }
+          - { os: "linux", name: "mips64el" }
+          - { os: "linux", name: "mipsel" }
           
     steps:
 

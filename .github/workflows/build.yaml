@@ -36,6 +36,8 @@ jobs:
           - { name: "armv7",   target: "armv7-unknown-linux-musleabihf" }
           - { name: "i386",    target: "i686-unknown-linux-musl" }
           - { name: "amd64fb",    target: "x86_64-unknown-freebsd" }
+          - { name: "mips64",    target: "mips64el-unknown-linux-muslabi64" }
+          - { name: "mipsel",    target: "mipsel-unknown-linux-musl" }
 
     steps:
       
